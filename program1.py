@@ -21,7 +21,6 @@ def isValid(s):
 s1 = "()"
 print(isValid(s1)) 
 
-
 s2 = "()[]{}"
 print(isValid(s2))  
 
