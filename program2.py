@@ -11,7 +11,7 @@ class Solution(object):
     return total
 
 # Test cases
-print(romannumerals("III"))     # Output: 3
+print(s("III"))     # Output: 3
 print(romannumerals("LVIII"))   # Output: 58
 print(romannumerals("MCMXCIV")) # Output: 1994
 
