@@ -27,7 +27,7 @@ print(isValid(s2))
 
 
 s3 = "(]"
-print(isValid(s3))  # Output: False
+print(isValid(s3)) 
 
 
 
