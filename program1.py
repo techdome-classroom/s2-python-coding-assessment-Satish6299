@@ -5,7 +5,7 @@ def isValid(s):
    
     stack = []
     
-    # Traverse each character in the string
+    
     for char in s:
         # If it's a closing bracket
         if char in matching_brackets:
