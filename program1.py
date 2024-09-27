@@ -13,7 +13,6 @@ def isValid(s):
             if matching_brackets[char] != top_element:
                 return False
         else:
-            # It's an opening bracket, push it to the stack
             stack.append(char)
     
     # If the stack is empty, all brackets are matched correctly
