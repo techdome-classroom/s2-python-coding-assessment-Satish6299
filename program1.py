@@ -2,7 +2,10 @@ import unittest
 from program1 import Solution
 
 class TestSolution(unittest.TestCase):
-def setup(self):
+    
+ def setUp(self):
+     
+
     matching_brackets = {')': '(', '}': '{', ']': '['}
     stack = []
     for char in s:
