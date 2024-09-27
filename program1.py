@@ -1,4 +1,4 @@
-def setup(s):
+def setup(self):
     matching_brackets = {')': '(', '}': '{', ']': '['}
     stack = []
     for char in s:
