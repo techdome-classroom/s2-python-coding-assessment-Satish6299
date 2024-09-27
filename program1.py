@@ -25,7 +25,7 @@ print(isValid(s1))
 s2 = "()[]{}"
 print(isValid(s2))  
 
-# Example 3
+
 s3 = "(]"
 print(isValid(s3))  # Output: False
 
