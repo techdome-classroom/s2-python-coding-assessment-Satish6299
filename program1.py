@@ -2,7 +2,6 @@ def isValid(s):
     
     matching_brackets = {')': '(', '}': '{', ']': '['}
     
-   
     stack = []
     
     
