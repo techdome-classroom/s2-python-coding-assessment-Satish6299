@@ -19,7 +19,7 @@ def isValid(s):
 
 
 s1 = "()"
-print(isValid(s1))  # Output: True
+print(isValid(s1)) 
 
 # Example 2
 s2 = "()[]{}"
