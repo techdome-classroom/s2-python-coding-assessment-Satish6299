@@ -1,4 +1,4 @@
-def isValid(s):
+def setup(s):
     matching_brackets = {')': '(', '}': '{', ']': '['}
     stack = []
     for char in s:
