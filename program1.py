@@ -23,7 +23,7 @@ print(isValid(s1))
 
 
 s2 = "()[]{}"
-print(isValid(s2))  # Output: True
+print(isValid(s2))  
 
 # Example 3
 s3 = "(]"
