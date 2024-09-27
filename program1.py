@@ -1,5 +1,5 @@
 def isValid(s):
-    # Dictionary to hold the matching pairs
+    
     matching_brackets = {')': '(', '}': '{', ']': '['}
     
     # Stack to keep track of open brackets
