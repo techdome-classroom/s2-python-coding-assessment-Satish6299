@@ -15,7 +15,6 @@ def isValid(s):
         else:
             stack.append(char)
     
-    # If the stack is empty, all brackets are matched correctly
     return not stack
 
 # Example Test Cases:
