@@ -7,7 +7,6 @@ def isValid(s):
     
     
     for char in s:
-        # If it's a closing bracket
         if char in matching_brackets:
             # Check the top of the stack, if stack is not empty, else set top_element to a dummy value
             top_element = stack.pop() if stack else '#'
