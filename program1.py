@@ -9,7 +9,6 @@ def isValid(s):
                 return False
         else:
             stack.append(char)
-    
     return not stack
 s1 = "()"
 print(isValid(s1)) 
