@@ -10,7 +10,6 @@ def isValid(s):
         if char in matching_brackets:
             top_element = stack.pop() if stack else '#'
             
-            # If the top element doesn't match the corresponding open bracket, return False
             if matching_brackets[char] != top_element:
                 return False
         else:
