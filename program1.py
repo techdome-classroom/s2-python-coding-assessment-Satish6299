@@ -1,10 +1,7 @@
 def isValid(s):
     
     matching_brackets = {')': '(', '}': '{', ']': '['}
-    
     stack = []
-    
-    
     for char in s:
         if char in matching_brackets:
             top_element = stack.pop() if stack else '#'
