@@ -1,5 +1,4 @@
 def isValid(s):
-    
     matching_brackets = {')': '(', '}': '{', ']': '['}
     stack = []
     for char in s:
@@ -12,8 +11,6 @@ def isValid(s):
             stack.append(char)
     
     return not stack
-
-
 s1 = "()"
 print(isValid(s1)) 
 
