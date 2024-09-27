@@ -12,7 +12,7 @@ class Solution(object):
 
 # Test cases
 print(romannumerals("III"))     # Output: 3
-print(romannumerls("LVIII"))   # Output: 58
+print(romannume("LVIII"))   # Output: 58
 print(romanToInt("MCMXCIV")) # Output: 1994
 
 
