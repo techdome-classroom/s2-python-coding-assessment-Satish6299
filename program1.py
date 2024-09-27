@@ -1,3 +1,7 @@
+import unittest
+from program1 import Solution
+
+class TestSolution(unittest.TestCase):
 def setup(self):
     matching_brackets = {')': '(', '}': '{', ']': '['}
     stack = []
