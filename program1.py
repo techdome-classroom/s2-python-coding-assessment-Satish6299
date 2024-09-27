@@ -17,9 +17,7 @@ def isValid(s):
     
     return not stack
 
-# Example Test Cases:
 
-# Example 1
 s1 = "()"
 print(isValid(s1))  # Output: True
 
