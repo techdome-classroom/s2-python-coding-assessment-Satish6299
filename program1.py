@@ -2,7 +2,7 @@ def isValid(s):
     
     matching_brackets = {')': '(', '}': '{', ']': '['}
     
-    # Stack to keep track of open brackets
+   
     stack = []
     
     # Traverse each character in the string
